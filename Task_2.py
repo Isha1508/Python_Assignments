@@ -1,4 +1,4 @@
-f = input("Enter your first name: ")
-l = input("Enter your last name: ")
-name = f + l
-print("Hello,", name,"! Welcome to the Python program.")
+sum = 0
+for i in range(1,51): 
+    sum+=i
+print(sum)
